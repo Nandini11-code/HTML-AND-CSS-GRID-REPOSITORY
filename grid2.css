@@ -1,0 +1,13 @@
+.container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .box {
+            background-color: rgb(116, 72, 72);
+            padding: 30px;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+        }

@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(230, 173, 215);
+    padding: 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(238, 144, 171);
+    padding: 20px;
+}
+
+.content {
+    grid-area: content;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: lightcoral;
+    padding: 20px;
+}

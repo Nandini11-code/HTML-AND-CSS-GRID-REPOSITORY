@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.fixed {
+    grid-template-columns: 200px 200px 200px;
+}
+
+.flexible {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

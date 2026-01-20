@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+
+.task8 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+
+.box {
+    background-color: rgba(236, 120, 201, 0.722);
+    color: white;
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
